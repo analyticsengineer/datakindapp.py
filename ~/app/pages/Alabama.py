@@ -5,8 +5,8 @@ import streamlit as st
 st.header("City Of Alabama")
 
 details = st.selectbox('Check Alabama city details in the SNAP Program',
-                       ('Choose','Alabama City Map', 'Alabama potential gap rate',
-                       'Alabama SNAP data', 'Alabama Counties below federal poverty line',
+                       ('Choose','Alabama City Map', 'Alabama potential Gap Rate',
+                       'Alabama SNAP Data', 'Alabama Counties below federal poverty line',
                        '% No of the people eligible for the SNAP Program in Alabama'))
 
 
@@ -16,10 +16,10 @@ if details == 'Alabama City Map':
   st.map(df2)
   
   
-if details == 'Alabama potential gap rate':
+if details == 'Alabama potential Gap Rate':
   st.write("You are currently viewing: ", details)
   
-if details == 'Alabama SNAP data':
+if details == 'Alabama SNAP Data':
    st.write("You are currently viewing: ", details)
    df = pd.read_csv(r'Data/alabama.csv')
    st.markdown("Alabama SNAP Program records: ")
