@@ -12,8 +12,10 @@ details = st.selectbox('Check Alabama city details in the SNAP Program',
 
 if details == 'Alabama City Map':
   st.write("You are currently viewing: ", details)
-  df1 = pd.read_csv('Data/alabama.csv')
-  st.map(df1)
+  df = pd.read_csv(r'Data/alabama.csv')
+  df1 = pd.DataFrame(df)
+  df2 = (df1 + [37.76, -122.4],  columns=['lat', 'lon'])
+  st.map(df2)
   
   
 if details == 'Alabama potential Gap Rate':
