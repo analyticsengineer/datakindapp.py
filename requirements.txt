@@ -1,3 +1,4 @@
-pandas
-pip
-numpy
+streamlit==1.15.0
+pandas==1.2.0
+numpy==1.21.2
+pip==22.1.0
