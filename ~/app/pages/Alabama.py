@@ -22,6 +22,15 @@ if details == 'Alabama SNAP data':
    df = pd.read_csv(r'Alabama.csv')
    st.markdown("Alabama SNAP Program records: ")
    st.dataframe(df)
+   def convert_df(df):
+      return df.to_csv().encode('utf-8')
+      csv = convert_df(df)
+      st.download_button(
+      label="Download data as CSV",
+      data=csv,
+      file_name='Alabama City Snap Data.csv',
+      mime='text/csv',
+      )
     
     
 if details == 'Alabama Counties below federal poverty line':
