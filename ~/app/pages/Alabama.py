@@ -14,7 +14,7 @@ if details == 'Alabama City Map':
   st.write("You are currently viewing: ", details)
   df = pd.read_csv(r'Data/alabama.csv')
   df1 = pd.DataFrame(df)
-  df2 = (df1 + [37.76, -122.4],  columns=['lat', 'lon'])
+  df2 = (df1 + [32.31, -86.90])
   st.map(df2)
   
   
