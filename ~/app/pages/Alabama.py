@@ -13,7 +13,6 @@ details = st.selectbox('Check Alabama city details in the SNAP Program',
 if details == 'Alabama City Map':
   st.write("You are currently viewing: ", details)
   df1 = pd.read_csv('Data/alabama.csv')
-  df2 = (df1 + [32.3, -86.9])
   st.map(df2)
   
   
@@ -25,15 +24,18 @@ if details == 'Alabama SNAP data':
    df = pd.read_csv(r'Data/alabama.csv')
    st.markdown("Alabama SNAP Program records: ")
    st.dataframe(df)
-   def convert_df(df):
-      return df.to_csv().encode('utf-8')
-      csv = convert_df(df)
-      st.download_button(
-      label="Download data as CSV",
-      data=csv,
-      file_name='Alabama City Snap Data.csv',
-      mime='text/csv',
-      )
+   df = pd.DataFrame(df)
+   file_name = "Alabama SNAP Data.csv"
+   file_path = f"./{file_name}"
+
+   df.to_csv(file_path)
+
+   df = open(file_path, 'rb')
+   st.download_button(label='Click to download',
+                      data=df,
+                      file_name=file_name,
+                      key='download_df')
+   df.close()
     
     
 if details == 'Alabama Counties below federal poverty line':
