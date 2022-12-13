@@ -5,9 +5,9 @@ import streamlit as st
 st.header("City Of Alabama")
 
 details = st.selectbox('Check Alabama city details in the SNAP Program',
-                       'Alabama City Map', 'Alabama potential gap rate',
+                       ('Alabama City Map', 'Alabama potential gap rate',
                        'Alabama SNAP data', 'Alabama Counties below federal poverty line',
-                       '% No of the people eligible for the SNAP Program in Alabama')
+                       '% No of the people eligible for the SNAP Program in Alabama'))
 
 
 if details == 'Alabama City Map':
