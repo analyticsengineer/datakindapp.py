@@ -47,6 +47,6 @@ if details == 'Alabama Counties below federal poverty line':
 if details == '% No of the people eligible for the SNAP Program in Alabama':
   st.write("You are currently viewing: ", details)
   df = 79
-  st.write("The % No of people living in Alabama Eligible for the SNAP Program is {}%".format(df))
+  st.write("The % No of people living in Alabama Eligible for the SNAP Program is \n{}%".format(df))
   
   
