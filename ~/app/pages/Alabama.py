@@ -26,7 +26,7 @@ if details == 'Alabama SNAP Data':
    df = pd.read_csv(r'Data/alabama.csv')
    st.markdown("Alabama SNAP Program records: ")
    st.dataframe(df)
-   df = pd.DataFrame(df)
+   df = pd.DataFrame(df, 2)
    file_name = "Alabama SNAP Data.csv"
    file_path = f"./{file_name}"
 
