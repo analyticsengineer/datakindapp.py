@@ -45,7 +45,7 @@ if details == 'Alabama Counties below federal poverty line':
   df = pd.read_csv(r'Data/alabama_povertyline.csv')
   st.markdown("Alabama SNAP Program records: ")
   st.dataframe(df)
-  df = pd.DataFrame(df)
+  df = pd.DataFrame(df, 2)
   file_name = "Alabama Counties.csv"
   file_path = f"./{file_name}"
 
