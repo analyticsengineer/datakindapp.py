@@ -20,6 +20,10 @@ if details == 'Alabama City Map':
   
 if details == 'Alabama potential Gap Rate':
   st.write("You are currently viewing: ", details)
+  pap = 375.94
+  hap = 368.16
+  st.write("The potential Gap Rate for Alabama city Public and Non Public Assistance Participation is \n\n{}". format(pap))
+  st.write("The potential Gap Rate for Alabama city Household and Non Household Assistance Participation is \n\n{}". format(hap))
   
 if details == 'Alabama SNAP Data':
    st.write("You are currently viewing: ", details)
