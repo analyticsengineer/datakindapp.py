@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+42,45,45011,45011980100,"South Carolina","Census Tract 9801, Barnwell County, South Carolina",0.0,100.0
+43,45,45079,45079010408,"South Carolina","Census Tract 104.08, Richland County, South Carolina",0.0,100.0
+44,45,45079,45079010806,"South Carolina","Census Tract 108.06, Richland County, South Carolina",0.0,100.0
