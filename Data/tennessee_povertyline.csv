@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+45,47,47031,47031980100,"Tennessee","Census Tract 9801, Coffee County, Tennessee",0.0,100.0
+52,47,47037,47037014800,"Tennessee","Census Tract 148, Davidson County, Tennessee",42.0,96.1
+89,47,47183,47183968202,"Tennessee","Census Tract 9682.02, Weakley County, Tennessee",49.6,89.0
