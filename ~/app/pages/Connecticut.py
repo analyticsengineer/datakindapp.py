@@ -22,7 +22,7 @@ if details == 'Connecticut City Map':
 if details == 'Connecticut potential Gap Rate':
   st.write("You are currently viewing: ", details)
   pap = 1270.41
-  hap = 1391.84
+  hap = 1391.85
   st.write("The potential Gap Rate for Connecticut city Public and Non Public Assistance Participation is \n\n{}". format(pap))
   st.write("The potential Gap Rate for Connecticut city Household and Non Household Assistance Participation is \n\n{}". format(hap))
   snap = [['Public and Non Public', 1270.41], ['Household and Non Household', 1391.84]]
