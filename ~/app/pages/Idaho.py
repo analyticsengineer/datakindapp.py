@@ -49,10 +49,10 @@ if details == 'Idaho SNAP Data':
    df.close()
     
     
-if details == 'Idaho  Counties below federal poverty line':
+if details == 'Idaho Counties below federal poverty line':
   st.write("You are currently viewing: ", details)
   df = pd.read_csv(r'Data/idaho_povertyline.csv')
-  st.markdown("Idaho  SNAP Program records: ")
+  st.markdown("Idaho SNAP Program records: ")
   st.dataframe(df)
   df = pd.DataFrame(df)
   file_name = "Idaho  Counties.csv"
