@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+import plotly.express as px
 
 st.header("City Of Arizona")
 
@@ -24,6 +25,10 @@ if details == 'Arizona potential Gap Rate':
   hap = 8229.20
   st.write("The potential Gap Rate for Arizona city Public and Non Public Assistance Participation is \n\n{}". format(pap))
   st.write("The potential Gap Rate for Arizona city Household and Non Household Assistance Participation is \n\n{}". format(hap))
+  snap = [['Public and Non Public Assistance Participation', 4926.64], ['Household and Non Household Assistance Participation', 8229.20]]
+  snap_df = pd.DataFrame(snap, columns=['Assistance Participation', 'Potential Gap Rate'])
+  fig = px.bar(snap_df, x=snap_df['Assistance Participation'], y=snap_df['Potential Gap Rate'],  color=snap_df['Assistance Participation'])
+  st.plotly_chart(fig, use_container_width=True)
   
 if details == 'Arizona SNAP Data':
    st.write("You are currently viewing: ", details)
