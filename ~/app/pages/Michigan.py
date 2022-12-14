@@ -48,7 +48,7 @@ if details == 'Michigan Counties below federal poverty line':
     
   
   
-if details == '% No of the people eligible for the SNAP Program in Michigan:
+if details == '% No of the people eligible for the SNAP Program in Michigan':
   st.write("You are currently viewing: ", details)
   df = 90
   st.write("The % No of people living in Michigan Eligible for the SNAP Program is \n\n{}%".format(df))
