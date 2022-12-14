@@ -24,7 +24,7 @@ if details == 'Oklahoma potential Gap Rate':
   st.write("The SNAP DATA for Oklahoma is N/A")
   
   
-if details == 'Kentucky SNAP Data':
+if details == 'Oklahoma SNAP Data':
    st.write("You are currently viewing: ", details)
    st.write("The SNAP DATA for Oklahoma is N/A")
    
