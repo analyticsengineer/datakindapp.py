@@ -1,0 +1,11 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+30,36,36005,36005028400,"New York","Census Tract 284, Bronx County, New York",0.0,100.0
+31,36,36047,36047015400,"New York","Census Tract 154, Kings County, New York",0.0,100.0
+32,36,36055,36055980200,"New York","Census Tract 9802, Monroe County, New York",0.0,100.0
+33,36,36061,36061014300,"New York","Census Tract 143, New York County, New York",0.0,100.0
+34,36,36081,36081017102,"New York","Census Tract 171.02, Queens County, New York",0.0,100.0
+35,36,36081,36081042600,"New York","Census Tract 426, Queens County, New York",0.0,100.0
+36,36,36089,36089491100,"New York","Census Tract 4911, St. Lawrence County, New York",0.0,100.0
+74,36,36065,36065026502,"New York","Census Tract 265.02, Oneida County, New York",7.1,91.7
+77,36,36061,36061024000,"New York","Census Tract 240, New York County, New York",12.3,91.2
+95,36,36067,36067005602,"New York","Census Tract 56.02, Onondaga County, New York",20.9,88.5
