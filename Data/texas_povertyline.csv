@@ -1,0 +1,10 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+46,48,48001,48001950402,"Texas","Census Tract 9504.02, Anderson County, Texas",0.0,100.0
+47,48,48453,48453002319,"Texas","Census Tract 23.19, Travis County, Texas",0.0,100.0
+48,48,48479,48479980000,"Texas","Census Tract 9800, Webb County, Texas",0.0,100.0
+57,48,48215,48215021001,"Texas","Census Tract 210.01, Hidalgo County, Texas",14.9,93.9
+62,48,48453,48453000606,"Texas","Census Tract 6.06, Travis County, Texas",6.7,93.2
+83,48,48441,48441012100,"Texas","Census Tract 121, Taylor County, Texas",20.3,89.6
+93,48,48041,48041002017,"Texas","Census Tract 20.17, Brazos County, Texas",18.2,88.7
+94,48,48141,48141001900,"Texas","Census Tract 19, El Paso County, Texas",9.2,88.6
+96,48,48215,48215024122,"Texas","Census Tract 241.22, Hidalgo County, Texas",12.2,88.5
