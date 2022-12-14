@@ -11,7 +11,7 @@ image = Image.open('image.png')
 col1.markdown('''# **SNAP & BDT Program Web App**
 ''')
 col2.image(image)
-col2.write("A DATA KIND PROJECT")
+col1.write("A DataKind Project")
 
 col1.write("This Web application consists of only states with counties below federal poverty line")
 
