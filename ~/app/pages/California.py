@@ -21,14 +21,14 @@ if details == 'California City Map':
   
 if details == 'California potential Gap Rate':
   st.write("You are currently viewing: ", details)
-  x = [242.60, 187.36]
-  y = ['Public and Non Public Assistance Participation', 'Household and Non Household Assistance Participation']
-  fig = px.bar(x=x, y=y)
-  st.plotly_chart(fig, use_container_width=True)
   pap = 242.60
   hap = 187.36
   st.write("The potential Gap Rate for California city Public and Non Public Assistance Participation is \n\n{}". format(pap))
   st.write("The potential Gap Rate for California city Household and Non Household Assistance Participation is \n\n{}". format(hap))
+  snap = [['Public and Non Public Assistance Participation', 242.60], ['Household and Non Household Assistance Participation', 187.36]]
+  snap_df = pd.DataFrame(snap, columns=['Assistance Participation', 'Potential Gap Rate'])
+  fig = px.bar(snap_df, x=snap_df['Assistance Participation'], y=snap_df['Potential Gap Rate'],  color=snap_df['Assistance Participation'])
+  st.plotly_chart(fig, use_container_width=True)
   
 if details == 'California SNAP Data':
    st.write("You are currently viewing: ", details)
