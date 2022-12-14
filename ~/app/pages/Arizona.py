@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-st.header("City Of Alabama")
+st.header("City Of Arizona")
 
 details = st.selectbox('Check Arizona city details in the SNAP Program',
                        ('Choose','Arizona City Map', 'Arizona potential Gap Rate',
