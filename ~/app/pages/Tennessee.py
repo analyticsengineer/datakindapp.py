@@ -48,7 +48,7 @@ if details == 'Tennessee Counties below federal poverty line':
     
   
   
-if details == '% No of the people eligible for the SNAP Program in Tennessee:
+if details == '% No of the people eligible for the SNAP Program in Tennessee':
   st.write("You are currently viewing: ", details)
   df = 90
   st.write("The % No of people living in Tennessee Eligible for the SNAP Program is \n\n{}%".format(df))
