@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+55,22,22071,22071013702,"Louisiana","Census Tract 137.02, Orleans Parish, Louisiana",18.8,94.4
+64,22,22071,22071001751,"Louisiana","Census Tract 17.51, Orleans Parish, Louisiana",13.8,93.1
+81,22,22071,22071004800,"Louisiana","Census Tract 48, Orleans Parish, Louisiana",23.2,90.4
