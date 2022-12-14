@@ -29,7 +29,7 @@ if details == 'Maryland SNAP Data':
   
     
     
-if details == 'KMaryland Counties below federal poverty line':
+if details == 'Maryland Counties below federal poverty line':
   st.write("You are currently viewing: ", details)
   df = pd.read_csv(r'Data/maryland_povertyline.csv')
   st.markdown("Maryland SNAP Program records: ")
