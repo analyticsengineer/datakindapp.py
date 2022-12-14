@@ -11,7 +11,7 @@ details = st.selectbox('Check Virginia city details in the SNAP Program',
                        '% No of the people eligible for the SNAP Program in Virginia'))
 
 
-if details == 'VirginiaCity Map':
+if details == 'Virginia City Map':
   st.write("You are currently viewing: ", details)
   df = pd.DataFrame(
         np.random.randn(1000, 2) / [50, 50] + [37.43, -78.65],
