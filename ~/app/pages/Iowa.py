@@ -19,7 +19,7 @@ if details == 'Iowa City Map':
   st.map(df)
   
   
-if details == 'Florida potential Gap Rate':
+if details == 'Iowa potential Gap Rate':
   st.write("You are currently viewing: ", details)
   pap = 564.46
   hap = 320.10
