@@ -21,11 +21,11 @@ if details == 'Florida City Map':
   
 if details == 'Florida potential Gap Rate':
   st.write("You are currently viewing: ", details)
-  pap = 768.63
+  pap = 718.39
   hap = 402.63
   st.write("The potential Gap Rate for Florida city Public and Non Public Assistance Participation is \n\n{}". format(pap))
   st.write("The potential Gap Rate for Florida city Household and Non Household Assistance Participation is \n\n{}". format(hap))
-  snap = [['Public and Non Public', 768.63], ['Household and Non Household', 402.63]]
+  snap = [['Public and Non Public', 718.39], ['Household and Non Household', 402.63]]
   snap_df = pd.DataFrame(snap, columns=['Assistance Participation', 'Potential Gap Rate'])
   fig = px.bar(snap_df, x=snap_df['Assistance Participation'], y=snap_df['Potential Gap Rate'],  color=snap_df['Assistance Participation'])
   st.plotly_chart(fig, use_container_width=True)
