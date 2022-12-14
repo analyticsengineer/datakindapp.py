@@ -1,0 +1,6 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+14,13,13089,13089023115,"Georgia","Census Tract 231.15, DeKalb County, Georgia",0.0,100.0
+15,13,13121,13121006801,"Georgia","Census Tract 68.01, Fulton County, Georgia",0.0,100.0
+61,13,13059,13059030101,"Georgia","Census Tract 301.01, Clarke County, Georgia",13.0,93.3
+84,13,13121,13121001901,"Georgia","Census Tract 19.01, Fulton County, Georgia",30.2,89.5
+86,13,13009,13009970501,"Georgia","Census Tract 9705.01, Baldwin County, Georgia",11.3,89.4
