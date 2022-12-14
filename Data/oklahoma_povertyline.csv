@@ -1,0 +1,3 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+40,40,40031,40031002401,"Oklahoma","Census Tract 24.01, Comanche County, Oklahoma",0.0,100.0
+87,40,40109,40109980009,"Oklahoma","Census Tract 9800.09, Oklahoma County, Oklahoma",7.8,89.2
