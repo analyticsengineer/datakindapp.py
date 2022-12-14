@@ -7,7 +7,7 @@ st.header("City Of Iowa")
 
 details = st.selectbox('Check Iowa city details in the SNAP Program',
                        ('Choose','Iowa City Map', 'Iowa potential Gap Rate',
-                       'Florida SNAP Data', 'Iowa Counties below federal poverty line',
+                       'Iowa SNAP Data', 'Iowa Counties below federal poverty line',
                        '% No of the people eligible for the SNAP Program in Iowa'))
 
 
