@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.header("City Of Indiana")
 
-details = st.selectbox('Check FIndiana city details in the SNAP Program',
+details = st.selectbox('Check Indiana city details in the SNAP Program',
                        ('Choose','Indiana City Map', 'Indiana potential Gap Rate',
                        'Indiana SNAP Data', 'Indiana Counties below federal poverty line',
                        '% No of the people eligible for the SNAP Program in Indiana'))
