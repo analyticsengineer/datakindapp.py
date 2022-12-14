@@ -23,8 +23,8 @@ if details == 'Iowa potential Gap Rate':
   st.write("You are currently viewing: ", details)
   pap = 564.46
   hap = 320.10
-  st.write("The potential Gap Rate for Florida city Public and Non Public Assistance Participation is \n\n{}". format(pap))
-  st.write("The potential Gap Rate for Florida city Household and Non Household Assistance Participation is \n\n{}". format(hap))
+  st.write("The potential Gap Rate for Iowa city Public and Non Public Assistance Participation is \n\n{}". format(pap))
+  st.write("The potential Gap Rate for Iowa city Household and Non Household Assistance Participation is \n\n{}". format(hap))
   snap = [['Public and Non Public', 564.46], ['Household and Non Household', 320.10]]
   snap_df = pd.DataFrame(snap, columns=['Assistance Participation', 'Potential Gap Rate'])
   fig = px.bar(snap_df, x=snap_df['Assistance Participation'], y=snap_df['Potential Gap Rate'],  color=snap_df['Assistance Participation'])
