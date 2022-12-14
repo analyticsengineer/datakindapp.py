@@ -1,0 +1,8 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+17,17,17087,17087980000,"Illinois","Census Tract 9800, Johnson County, Illinois",0.0,100.0
+18,17,17109,17109980000,"Illinois","Census Tract 9800, McDonough County, Illinois",0.0,100.0
+19,17,17201,17201980000,"Illinois","Census Tract 9800, Winnebago County, Illinois",0.0,100.0
+51,17,17113,17113000200,"Illinois","Census Tract 2, McLean County, Illinois",3.0,97.2
+56,17,17019,17019000402,"Illinois","Census Tract 4.02, Champaign County, Illinois",7.2,93.9
+59,17,17019,17019000401,"Illinois","Census Tract 4.01, Champaign County, Illinois",7.9,93.7
+99,17,17019,17019005901,"Illinois","Census Tract 59.01, Champaign County, Illinois",9.2,88.3
