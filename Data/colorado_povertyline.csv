@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage of persons below 150% poverty estimate MOE","Percentage of persons below 150% poverty estimate"
+9,8,8101,8101000300,"Colorado","Census Tract 3, Pueblo County, Colorado",0.0,100.0
+10,8,8101,8101000903,"Colorado","Census Tract 9.03, Pueblo County, Colorado",0.0,100.0
+79,8,8031,8031000800,"Colorado","Census Tract 8, Denver County, Colorado",10.5,90.9
