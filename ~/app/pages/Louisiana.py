@@ -21,11 +21,11 @@ if details == 'Louisiana City Map':
   
 if details == 'Louisiana potential Gap Rate':
   st.write("You are currently viewing: ", details)
-  st.write("The SNAP DATA of Louisiana is N/A")
+  st.write("The SNAP DATA for Louisiana is N/A")
   
 if details == 'Louisiana SNAP Data':
    st.write("You are currently viewing: ", details)
-   st.write("The SNAP DATA of Louisiana is N/A")
+   st.write("The SNAP DATA for Louisiana is N/A")
     
     
 if details == 'Louisiana Counties below federal poverty line':
