@@ -1,0 +1,5 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+22,21,21221,21221980100,"Kentucky","Census Tract 9801, Trigg County, Kentucky",0.0,100.0
+66,21,21067,21067000801,"Kentucky","Census Tract 8.01, Fayette County, Kentucky",17.9,92.6
+73,21,21061,21061980100,"Kentucky","Census Tract 9801, Edmonson County, Kentucky",79.9,91.8
+90,21,21111,21111003502,"Kentucky","Census Tract 35.02, Jefferson County, Kentucky",10.0,88.9
