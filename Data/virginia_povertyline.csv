@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+63,51,51121,51121020401,"Virginia","Census Tract 204.01, Montgomery County, Virginia",5.9,93.2
+65,51,51760,51760030100,"Virginia","Census Tract 301, Richmond city, Virginia",7.2,92.9
+88,51,51179,51179010201,"Virginia","Census Tract 102.01, Stafford County, Virginia",43.1,89.2
