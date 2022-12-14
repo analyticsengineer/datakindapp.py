@@ -23,7 +23,7 @@ if details == 'New Mexico potential Gap Rate':
   st.write("You are currently viewing: ", details)
   st.write("The SNAP DATA for New Mexico is N/A")
   
-if details == 'Kentucky SNAP Data':
+if details == 'New Mexico SNAP Data':
    st.write("You are currently viewing: ", details)
    st.write("The SNAP DATA for New Mexico is N/A")
    
