@@ -1,0 +1,4 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+13,12,12057,12057010900,"Florida","Census Tract 109, Hillsborough County, Florida",0.0,100.0
+72,12,12086,12086980700,"Florida","Census Tract 9807, Miami-Dade County, Florida",26.9,91.8
+97,12,12001,12001000202,"Florida","Census Tract 2.02, Alachua County, Florida",8.9,88.4
