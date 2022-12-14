@@ -1,0 +1,10 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage_of_persons_below_150%_poverty_estimate_MOE","Percentage_of_persons_below_150%_poverty_estimate"
+23,26,26099,26099982002,"Michigan","Census Tract 9820.02, Macomb County, Michigan",0.0,100.0
+24,26,26099,26099982200,"Michigan","Census Tract 9822, Macomb County, Michigan",0.0,100.0
+25,26,26147,26147989000,"Michigan","Census Tract 9890, St. Clair County, Michigan",0.0,100.0
+26,26,26161,26161980500,"Michigan","Census Tract 9805, Washtenaw County, Michigan",0.0,100.0
+50,26,26139,26139024502,"Michigan","Census Tract 245.02, Ottawa County, Michigan",6.0,97.7
+53,26,26073,26073000703,"Michigan","Census Tract 7.03, Isabella County, Michigan",17.8,94.8
+76,26,26065,26065004100,"Michigan","Census Tract 41, Ingham County, Michigan",6.9,91.4
+92,26,26161,26161980102,"Michigan","Census Tract 9801.02, Washtenaw County, Michigan",33.2,88.7
+100,26,26163,26163983400,"Michigan","Census Tract 9834, Wayne County, Michigan",113.6,88.3
