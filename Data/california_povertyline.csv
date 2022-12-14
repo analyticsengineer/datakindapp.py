@@ -1,0 +1,11 @@
+"id","State_Code","County_Code","FIPS_Code","states","Location","Percentage of persons below 150% poverty estimate MOE","Percentage of persons below 150% poverty estimate"
+2,6,6025,6025010101,"California","Census Tract 101.01, Imperial County, California",0.0,100.0
+3,6,6037,6037980033,"California","Census Tract 9800.33, Los Angeles County, California",0.0,100.0
+4,6,6059,6059021813,"California","Census Tract 218.13, Orange County, California",0.0,100.0
+5,6,6065,6065046501,"California","Census Tract 465.01, Riverside County, California",0.0,100.0
+6,6,6075,6075980501,"California","Census Tract 9805.01, San Francisco County, California",0.0,100.0
+7,6,6083,6083980100,"California","Census Tract 9801, Santa Barbara County, California",0.0,100.0
+8,6,6083,6083980300,"California","Census Tract 9803, Santa Barbara County, California",0.0,100.0
+54,6,6037,6037206303,"California","Census Tract 2063.03, Los Angeles County, California",7.9,94.6
+60,6,6079,6079010903,"California","Census Tract 109.03, San Luis Obispo County, California",5.4,93.4
+98,6,6037,6037206302,"California","Census Tract 2063.02, Los Angeles County, California",25.9,88.3
