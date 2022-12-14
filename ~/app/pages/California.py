@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+import plotly.express as px
 
 st.header("City Of California")
 
@@ -20,6 +21,10 @@ if details == 'California City Map':
   
 if details == 'California potential Gap Rate':
   st.write("You are currently viewing: ", details)
+  x = [242.60, 187.36]
+  y = ['Public and Non Public Assistance Participation', 'Household and Non Household Assistance Participation']
+  fig = px.bar(x=x, y=y)
+  st.plotly_chart(fig, use_container_width=True)
   pap = 242.60
   hap = 187.36
   st.write("The potential Gap Rate for California city Public and Non Public Assistance Participation is \n\n{}". format(pap))
